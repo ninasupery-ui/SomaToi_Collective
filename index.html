@@ -36,12 +36,23 @@
     <p class="my-5">Discover creativity, sustainably. Sign up to be the first to know when SomaToi goes live.</p>
 
     <!-- Email Signup -->
-    <form class="d-flex flex-column align-items-center">
-      <input type="email" class="form-control email-input" placeholder="Enter your email" required>
-      <input type="hidden" name="_subject" value="New SomaToi Artist Application">
-      <button type="submit" class="btn-custom mt-5 mb-5">Notify Me</button>
-    </form>
+  <form id="newsletter-form" action="https://formsubmit.co/hello@somatoi.com" 
+      method="POST" 
+      class="d-flex flex-column align-items-center">
 
+  <!-- Email input -->
+    <input type="email" name="email" class="form-control email-input" 
+         placeholder="Enter your email" required>
+
+  <!-- Hidden fields for Formsubmit -->
+    <input type="hidden" name="_subject" value="New SomaToi Newsletter Signup">
+    <input type="hidden" name="_next" value="https://somatoi.com/thanks.html">
+  <!-- Optional: disable captcha -->
+  <!-- <input type="hidden" name="_captcha" value="false"> -->
+
+  <!-- Submit button -->
+    <button type="submit" class="btn-custom my-5">Notify Me</button>
+  </form>
 
 <!-- Artist Application Section (Formsubmit.co with file upload & link guidance) -->
 <section id="artists" class="my-5 py-5">
@@ -91,6 +102,7 @@
   </div>
 </body>
 </html>
+
 
 
 
