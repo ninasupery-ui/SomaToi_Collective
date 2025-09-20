@@ -310,7 +310,7 @@ h2 {
     /* Headings */
     h1 {
       font-family: 'Special Gothic Expanded One', sans-serif;
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: 1rem;
       color: #ddd;
     }
@@ -358,7 +358,7 @@ h2 {
 }
 
 h2{
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Special Gothic Expanded One', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
